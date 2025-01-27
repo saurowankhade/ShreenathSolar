@@ -10,7 +10,7 @@ function Projects() {
       stats: {
         capacity: "250kW",
         savings: "40%",
-        completion: "2023"
+        completion: "2025"
       }
     },
     {
@@ -19,20 +19,20 @@ function Projects() {
       description: "Large-scale commercial solar installation",
       image: "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
       stats: {
-        capacity: "500kW",
+        capacity: "50kW",
         savings: "60%",
-        completion: "2023"
+        completion: "2025"
       }
     },
     {
-      title: "Tech Park Solar Farm",
-      type: "Industrial",
-      description: "Industrial park renewable energy project",
+      title: "Rama Apartments",
+      type: "Residential",
+      description: "Multi-family residential solar installation",
       image: "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
       stats: {
-        capacity: "1MW",
-        savings: "75%",
-        completion: "2022"
+        capacity: "50KW",
+        savings: "60%",
+        completion: "2024"
       }
     },
     {
@@ -41,9 +41,9 @@ function Projects() {
       description: "Multi-family residential solar installation",
       image: "https://images.unsplash.com/photo-1592833159155-c62df1b65634?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
       stats: {
-        capacity: "150kW",
-        savings: "35%",
-        completion: "2023"
+        capacity: "15kW",
+        savings: "70%",
+        completion: "2024"
       }
     }
   ];
@@ -101,10 +101,10 @@ function Projects() {
                     </div>
                   </div>
 
-                  <button className="inline-flex items-center text-yellow-500 hover:text-yellow-600">
+                  {/* <button className="inline-flex items-center text-yellow-500 hover:text-yellow-600">
                     View Details
                     <ArrowRight className="ml-2 h-5 w-5" />
-                  </button>
+                  </button> */}
                 </div>
               </div>
             ))}
@@ -117,19 +117,19 @@ function Projects() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="text-4xl font-bold text-yellow-500 mb-2">100+</div>
+              <div className="text-4xl font-bold text-yellow-500 mb-2">150+</div>
               <p className="text-gray-600">Projects Completed</p>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-yellow-500 mb-2">5MW+</div>
+              <div className="text-4xl font-bold text-yellow-500 mb-2">150KW+</div>
               <p className="text-gray-600">Total Capacity Installed</p>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-yellow-500 mb-2">50%</div>
+              <div className="text-4xl font-bold text-yellow-500 mb-2">80%+</div>
               <p className="text-gray-600">Average Energy Savings</p>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-yellow-500 mb-2">1000+</div>
+              <div className="text-4xl font-bold text-yellow-500 mb-2">200+</div>
               <p className="text-gray-600">Happy Customers</p>
             </div>
           </div>

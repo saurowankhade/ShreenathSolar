@@ -20,7 +20,7 @@ function App() {
               <div className="flex items-center">
                 <Link to="/" className="flex items-center space-x-2">
                   <Sun className="h-8 w-8 text-yellow-500" />
-                  <span className="text-2xl font-bold text-gray-800">ShreenathSolar</span>
+                  <span className="text-2xl font-bold text-gray-800">Shreenath Electrical And Solar</span>
                 </Link>
               </div>
 
@@ -142,7 +142,7 @@ function App() {
               <div>
                 <h3 className="text-lg font-semibold mb-4">Contact Info</h3>
                 <ul className="space-y-2 text-gray-400">
-                  <li>shreenathsolar1960@gmail.com</li>
+                  <li>theshreenathsolar@gmail.com</li>
                   <li>+91 70204 15411</li>
                 </ul>
               </div>

@@ -50,7 +50,7 @@ function Contact() {
                   <div className="ml-4">
                     <h3 className="text-lg font-semibold">Phone</h3>
                     <p className="text-gray-600">+91 70204 15411</p>
-                    <p className="text-gray-600">Mon-Fri 9am-6pm</p>
+                    {/* <p className="text-gray-600">Mon-Fri 9am-6pm</p> */}
                   </div>
                 </div>
 
@@ -60,7 +60,7 @@ function Contact() {
                   </div>
                   <div className="ml-4">
                     <h3 className="text-lg font-semibold">Email</h3>
-                    <p className="text-gray-600">shreenathsolar1960@gmail.com</p>
+                    <p className="text-gray-600">theshreenathsolar@gmail.com</p>
                   </div>
                 </div>
 
@@ -71,7 +71,7 @@ function Contact() {
                   <div className="ml-4">
                     <h3 className="text-lg font-semibold">Office</h3>
                     <p className="text-gray-600">
-                      Gadge Sadhan , Shivshakti Square , Malipura<br />
+                      Gadge Sadan , Shivshakti Square , Malipura<br />
                       Karanja Lad , 444105<br />
                       Washim , Maharastra
                     </p>
@@ -83,13 +83,10 @@ function Contact() {
               <div className="mt-8 h-64 bg-gray-200 rounded-lg">
                 {/* Add map integration here */}
                 <div className="w-full h-full flex items-center justify-center text-gray-500">
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!4v1737922141219!6m8!1m7!1syomNlbwHcsYxixd6j6cjRw!2m2!1d20.48304503201125!2d77.495677798712!3f13.833608020859117!4f-5.349314621983979!5f0.7820865974627469"
-                    className="w-full h-full rounded-lg"
-                    style={{ border: 0 }}
-                    loading="lazy"
-                    referrerPolicy="no-referrer-when-downgrade"
-                  ></iframe>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3737.5686437891804!2d77.4957439!3d20.4829027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd1370efc695be7%3A0x755e9cf9d2952827!2z4KSw4KS-4KSu4KS-IOCkleClgeCkguCknCDgpJfgpL7gpKHgpJfgpYcg4KSo4KS_4KS14KS-4KS4!5e0!3m2!1shi!2sin!4v1737999230463!5m2!1shi!2sin" className="w-full h-full rounded-lg" style={{ border: 0 }}  loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+
+
                 </div>
               </div>
             </div>

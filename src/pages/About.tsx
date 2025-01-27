@@ -6,9 +6,9 @@ function About() {
       {/* Hero Section */}
       <section className="relative py-20 bg-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-justify text-white">
-          <h1 className="text-4xl text-center md:text-5xl font-bold mb-6">About ShreenathSolar</h1>
+          <h1 className="text-4xl text-center md:text-5xl font-bold mb-6">About Shreenath Electrical and Solar</h1>
           <p className="text-xl max-w-3xl mx-auto">
-          Shreenath Solar, established in 2023, is the latest venture of Shreenath Electrical and Engineers Contractor, a company with over 25 years of expertise in the electrical contracting industry. Building on the legacy of quality and timely services, Shreenath Solar focuses on harnessing the power of renewable energy to pave the way for a sustainable future. 
+          Shreenath Electrical and Solar, established in 2023, is the latest venture of Shreenath Electrical and Engineers Contractor, a company with over 25 years of expertise in the electrical contracting industry. Building on the legacy of quality and timely services, Shreenath Solar focuses on harnessing the power of renewable energy to pave the way for a sustainable future. 
           </p>
           <p className="text-xl max-w-3xl mx-auto"> With our deep-rooted experience in turnkey electrical solutions, material procurement, and infrastructure projects, we are now bringing the same commitment and precision to the solar energy sector. Our mission is to provide efficient, reliable, and cost-effective solar solutions to individuals, businesses, and government organizations.
 
@@ -44,7 +44,7 @@ function About() {
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold mb-4">Our Leadership Team</h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Meet the experts behind ShreenathSolar's success
+              Meet the experts behind Shreenath Eelectrical and Solar's success
             </p>
           </div>
 
