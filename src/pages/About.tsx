@@ -1,4 +1,5 @@
 import { Award, Users, Target } from 'lucide-react';
+import mayureshgadge from './../assert/mayureshgadge.jpg'
 
 function About() {
   return (
@@ -48,15 +49,15 @@ function About() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 ">
             <div className="bg-white p-6 rounded-lg shadow-md text-center">
               <img
-                src="https://shreenathelesolar.vercel.app/img/ramdas%20gadge.png"
+                src={mayureshgadge}
                 alt="CEO"
                 className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
               />
-              <h3 className="text-xl font-semibold mb-2">Ramdas Gadge</h3>
-              <p className="text-gray-600 mb-2">CEO & Founder</p>
+              <h3 className="text-xl font-semibold mb-2">Mayuresh Gadge</h3>
+              <p className="text-gray-600 mb-2">Founder & Technical Head </p>
               {/* <p className="text-gray-500 text-sm">
                 20+ years of experience in renewable energy
               </p> */}
@@ -64,27 +65,14 @@ function About() {
 
             <div className="bg-white p-6 rounded-lg shadow-md text-center">
               <img
-                src="https://shreenathelesolar.vercel.app/img/satyajit%20gadge.png"
-                alt="Technical Director"
+                src={mayureshgadge}
+                alt="Operations Head"
                 className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
               />
-              <h3 className="text-xl font-semibold mb-2">Satyajit Gadge</h3>
-              <p className="text-gray-600 mb-2">Operations Manager</p>
+              <h3 className="text-xl font-semibold mb-2">Shabda Gadge</h3>
+              <p className="text-gray-600 mb-2">Operations Head</p>
               {/* <p className="text-gray-500 text-sm">
                 15+ years of solar installation expertise
-              </p> */}
-            </div>
-
-            <div className="bg-white p-6 rounded-lg shadow-md text-center">
-              <img
-                src="https://shreenathelesolar.vercel.app/img/mayuresh%20gadge.png"
-                alt="Operations Manager"
-                className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
-              />
-              <h3 className="text-xl font-semibold mb-2">Mayuresh Gadge</h3>
-              <p className="text-gray-600 mb-2">Technical Director</p>
-              {/* <p className="text-gray-500 text-sm">
-                12+ years of project management
               </p> */}
             </div>
           </div>
